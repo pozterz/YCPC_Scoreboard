@@ -7,7 +7,7 @@
           "generatorId": "$Id: DefaultScoringAlgorithm.java 2534 2012-04-18 02:27:12Z boudreat $",
           "groupCount": "1",
           "medianProblemsSolved": "5",
-          "problemCount": "4",
+          "problemCount": "12",
           "problemsAttempted": "11",
           "siteCount": "1",
           "systemName": "CSUS Programming Contest System",
@@ -70,8 +70,37 @@
                       "color": "DarkGreen",
                       "id": "7"
                     }
+                  },
+                  {
+                    "$": {
+                      "color": "Orange",
+                      "id": "8"
+                    }
+                  },
+                  {
+                    "$": {
+                      "color": "LightGreen",
+                      "id": "9"
+                    }
+                  },
+                  {
+                    "$": {
+                      "color": "LightPink",
+                      "id": "10"
+                    }
+                  },
+                  {
+                    "$": {
+                      "color": "DarkPink",
+                      "id": "11"
+                    }
+                  },
+                  {
+                    "$": {
+                      "color": "Red",
+                      "id": "12"
+                    }
                   }
-                  
                 ]
               }
             ]
@@ -158,6 +187,42 @@
               "title": "H Automated Scholarship Calculation"
             }
           },
+          {
+            "$": {
+              "attempts": "52",
+              "bestSolutionTime": "25",
+              "id": "9",
+              "lastSolutionTime": "293",
+              "numberSolved": "51",
+              "title": "I Tom and Jerry"
+            }
+          },
+          {
+            "$": {
+              "attempts": "0",
+              "id": "10",
+              "numberSolved": "0",
+              "title": "J Sunlight on a Tree"
+            }
+          },
+          {
+            "$": {
+              "attempts": "11",
+              "id": "11",
+              "numberSolved": "0",
+              "title": "K Angry Birds"
+            }
+          },
+          {
+            "$": {
+              "attempts": "113",
+              "bestSolutionTime": "3",
+              "id": "12",
+              "lastSolutionTime": "177",
+              "numberSolved": "60",
+              "title": "L Donation Packaging"
+            }
+          }
         ]
       }
     ],
@@ -1574,7 +1639,7 @@
             "$": {
               "attempts": "9",
               "index": "3",
-              "isPending": "true",
+              "isPending": "false",
               "isSolved": "false",
               "points": "0",
               "problemId": "C Problem C-7375184063170245180",
@@ -2638,7 +2703,7 @@
             "$": {
               "attempts": "0",
               "index": "3",
-              "isPending": "true",
+              "isPending": "false",
               "isSolved": "false",
               "points": "0",
               "problemId": "C Problem C-7375184063170245180",

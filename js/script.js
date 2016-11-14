@@ -3,7 +3,7 @@ $(document).ready(function(){
 	function getData(){
 		$.ajax({
 			method: "GET",
-  			url: "http://172.26.116.159/ycpc/js/testdata.json",
+  			url: "http://localhost/ycpc/data.php",
   			dataType: "json",
   			success:function(response){
   				var $head = $('<tr>');
