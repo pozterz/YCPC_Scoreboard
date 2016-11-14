@@ -1,0 +1,103 @@
+{
+  "contestStandings": {
+    "standingsHeader": [
+      {
+        "$": {
+          "currentDate": "Mon Nov 14 14:14:27 ICT 2016",
+          "generatorId": "$Id$",
+          "groupCount": "1",
+          "medianProblemsSolved": "0",
+          "problemCount": "0",
+          "problemsAttempted": "0",
+          "siteCount": "1",
+          "systemName": "CSUS Programming Contest System",
+          "systemURL": "http://pc2.ecs.csus.edu/",
+          "systemVersion": "9.3.2 20160615 build 3449",
+          "title": "YCPC Contest 2016",
+          "totalAttempts": "0",
+          "totalSolved": "0"
+        },
+        "groupList": [
+          ""
+        ],
+        "colorList": [
+          ""
+        ]
+      }
+    ],
+    "teamStanding": [
+      {
+        "$": {
+          "firstSolved": "-1",
+          "index": "0",
+          "lastSolved": "0",
+          "points": "0",
+          "problemsAttempted": "0",
+          "rank": "1",
+          "solved": "0",
+          "teamAlias": "team1 (not aliasesd)",
+          "teamExternalId": "1001",
+          "teamId": "1",
+          "teamKey": "1TEAM1",
+          "teamName": "team1",
+          "teamSiteId": "1",
+          "totalAttempts": "0"
+        }
+      },
+      {
+        "$": {
+          "firstSolved": "-1",
+          "index": "1",
+          "lastSolved": "0",
+          "points": "0",
+          "problemsAttempted": "0",
+          "rank": "1",
+          "solved": "0",
+          "teamAlias": "team2 (not aliasesd)",
+          "teamExternalId": "1002",
+          "teamId": "2",
+          "teamKey": "1TEAM2",
+          "teamName": "team2",
+          "teamSiteId": "1",
+          "totalAttempts": "0"
+        }
+      },
+      {
+        "$": {
+          "firstSolved": "-1",
+          "index": "2",
+          "lastSolved": "0",
+          "points": "0",
+          "problemsAttempted": "0",
+          "rank": "1",
+          "solved": "0",
+          "teamAlias": "team3 (not aliasesd)",
+          "teamExternalId": "1003",
+          "teamId": "3",
+          "teamKey": "1TEAM3",
+          "teamName": "team3",
+          "teamSiteId": "1",
+          "totalAttempts": "0"
+        }
+      },
+      {
+        "$": {
+          "firstSolved": "-1",
+          "index": "3",
+          "lastSolved": "0",
+          "points": "0",
+          "problemsAttempted": "0",
+          "rank": "1",
+          "solved": "0",
+          "teamAlias": "team4 (not aliasesd)",
+          "teamExternalId": "1004",
+          "teamId": "4",
+          "teamKey": "1TEAM4",
+          "teamName": "team4",
+          "teamSiteId": "1",
+          "totalAttempts": "0"
+        }
+      }
+    ]
+  }
+}
