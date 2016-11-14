@@ -2,3 +2,12 @@ html,body{
 	background-color: #fff;
 	color: #fff;
 }
+.solved{
+	border: 2px solid;
+	animation: blink 1s infinite;
+}
+@keyframes blink {
+    0%   { border-color: red; }
+    50%  { border-color: green;}
+    100% { border-color: red; }
+}

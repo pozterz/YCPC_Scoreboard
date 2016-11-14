@@ -3,11 +3,12 @@ $(document).ready(function(){
 	function getData(){
 		$.ajax({
 			method: "GET",
-  			url: "http://localhost/ycpc/data.php",
+  			url: "http://172.26.116.159/ycpc/data.php",
   			dataType: "json",
   			success:function(response){
   				var $head = $('<tr>');
 
+  				$head.append($('<th>').text('Rank').css({color:"#fff",background:"#4a4a4a"}));
   				$head.append($('<th>').text('Name').css({color:"#fff",background:"#4a4a4a"}));
   				$head.append($('<th>').text('Solved').css({color:"#fff",background:"#4a4a4a"}));
   				$head.append($('<th>').text('Time').css({color:"#fff",background:"#4a4a4a"}));
@@ -16,8 +17,8 @@ $(document).ready(function(){
   						$head
   							.append(
   								$('<th>')
-  								.html('<i class="fa fa-star fa-2x"></i>')
-  								.css({"text-align":"center",background:"#4a4a4a",color:response.contestStandings.standingsHeader[0].colorList[0].colors[0].problem[i].$.color})
+  								.html('<i class="fa fa-star-o fa-2x" ></i>')
+  								.css({"text-align":"center","background-color":response.contestStandings.standingsHeader[0].colorList[0].colors[0].problem[i].$.color,color:"white"})
   							);
   				}
 
@@ -25,7 +26,7 @@ $(document).ready(function(){
 
   				$.each(response.contestStandings.teamStanding,function(i,team){
   					var $tr = $('<tr>');
-
+  					$tr.append($('<th>').text(team.$.rank));
   					$tr.append($('<th>').text(team.$.teamName));
   					$tr.append($('<th>').text(team.$.solved));
   					$tr.append($('<th>').text(team.$.points));
@@ -50,7 +51,7 @@ $(document).ready(function(){
 	  						}else{
 	  							
 	  							if($bestsolutiontime == $solutionTime){
-  									$color="is-warning";
+  									$color="is-warning solved";
   								} else {
   									$color = "is-success";
   								}
@@ -73,6 +74,30 @@ $(document).ready(function(){
   					
   					$('#data').append($tr);
   				});
+
+  					
+
+            $tr = $('<tr>');
+            $tr.append($('<td colspan="4">').text('Solved / Tries'));
+
+            for(var i = 0;i < response.contestStandings.standingsHeader[0].$.problemCount;i++){
+              $summary =  response.contestStandings.standingsHeader[0].problem[i].$;
+              $tr.append(
+                    $('<td class="has-text-centered">')
+                    .text(
+                      $summary.numberSolved
+                      +"/"
+                      + $summary.attempts
+                      +"("
+                      + Math.round(($summary.numberSolved/($summary.attempts == 0 && $summary.numberSolved == 0 ? 1 : $summary.attempts))*100)
+                      +")"
+                      +"%"
+                      )
+                  );
+            }
+
+            $('#data').append($tr);
+
   			}
 		})
 	}
