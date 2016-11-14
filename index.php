@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>YCPC 2016</title>
+	<meta HTTP-EQUIV="REFRESH" CONTENT="10; "/>
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="css/bulma.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -51,10 +52,10 @@
 			</tbody>
 		</table>
 	</div>
-	<div class="container">
+	<!-- <div class="container">
 		<div class="notification is-info">
 		  รบกวนทำแบบสอบถามด้วยครับที่ <a href="https://goo.gl/forms/1CyQHvOMZyIV6eCa2" target="_blank">https://goo.gl/forms/1CyQHvOMZyIV6eCa2</a> ขอบคุณครับ :D
 		</div>
-	</div>
+	</div> -->
 </body>
 </html>
