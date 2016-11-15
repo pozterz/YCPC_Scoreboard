@@ -17,7 +17,8 @@
 		<div class="hero-head">
 			<div class="container has-text-centered">
 			<hr/>
-				<h1 class="title"><br/>
+				<br/>
+				<h1 class="title" id="title">
 					YCPC Contest 2016
 				</h1>
 

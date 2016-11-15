@@ -7,7 +7,7 @@ $(document).ready(function(){
   			dataType: "json",
   			success:function(response){
   				var $head = $('<tr>');
-
+          $('#title').html(response.contestStandings.standingsHeader[0].$.title);
   				$head.append($('<th>').text('Rank').css({color:"#fff",background:"#4a4a4a"}));
   				$head.append($('<th>').text('Name').css({color:"#fff",background:"#4a4a4a"}));
   				$head.append($('<th>').text('Solved').css({color:"#fff",background:"#4a4a4a"}));
